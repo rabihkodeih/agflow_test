@@ -94,7 +94,7 @@ class Options(object):
 
     def __init__(self, rule_set):
         self.rs = rule_set
-        self.confs = {opt: False for opt in self.rs.options}
+        self.configuration = {opt: False for opt in self.rs.options}
 
     def closestConfiguration(self, conf, confs):
         dist = (lambda x, y: sum({k: abs(x[k] - y[k]) for k in x}.values()))
@@ -104,18 +104,18 @@ class Options(object):
         return best
 
     def update(self, opt):
-        filter_val = self.confs[opt]
+        filter_val = self.configuration[opt]
         addmissible_confs = [c for c in self.rs.validConfigurations() if c[opt] == filter_val]
-        self.confs = self.closestConfiguration(self.confs, addmissible_confs)
+        self.configuration = self.closestConfiguration(self.configuration, addmissible_confs)
 
     def toggle(self, opt):
-        if opt not in self.confs:
-            self.confs[opt] = False
-        self.confs[opt] = not self.confs[opt]
+        if opt not in self.configuration:
+            self.configuration[opt] = False
+        self.configuration[opt] = not self.configuration[opt]
         self.update(opt)
 
     def selection(self):
-        return set(opt for opt in self.confs if self.confs[opt])
+        return set(opt for opt in self.configuration if self.configuration[opt])
 
 
 # end of file
