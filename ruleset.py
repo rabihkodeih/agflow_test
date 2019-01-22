@@ -23,8 +23,8 @@ class RuleSet(object):
     all rules are satisfied). A configuration is said to be valid if its
     corresponding evaluation is consistent.
 
-    Testing for coherency is performed by making sure that no one or more
-    options are disabled in all valid configurations.
+    Testing for coherency is performed by making sure that every option
+    is set at least once under all valid configurations.
     '''
 
     def __init__(self):
