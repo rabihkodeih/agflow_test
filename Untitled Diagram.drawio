@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T14:07:10.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1X3vCS0EqYywnZO-Ys-m" version="21.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T14:23:29.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="NuNp09XHwZIkiSmJ21Ch" version="21.2.0" type="github">
   <diagram name="Page-1" id="OyKBPnsSxiUxUv3Rsae8">
     <mxGraphModel dx="794" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-4" value="&lt;b&gt;MI-2797&lt;/b&gt;: Prerequisites: Accessory API Updates" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BbD5o9TnXIsRnzcrsnNp-5" target="BbD5o9TnXIsRnzcrsnNp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-5" value="&lt;b&gt;MI-2799&lt;/b&gt;: Prerequisites: New order type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BbD5o9TnXIsRnzcrsnNp-6" target="BbD5o9TnXIsRnzcrsnNp-38" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -108,7 +108,7 @@
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BbD5o9TnXIsRnzcrsnNp-27" target="BbD5o9TnXIsRnzcrsnNp-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X1BD2XJLiUh06Z4Hev9j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BbD5o9TnXIsRnzcrsnNp-27" target="X1BD2XJLiUh06Z4Hev9j-1">
+        <mxCell id="X1BD2XJLiUh06Z4Hev9j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BbD5o9TnXIsRnzcrsnNp-27" target="X1BD2XJLiUh06Z4Hev9j-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-27" value="&lt;b&gt;MI-3618&lt;/b&gt;: Flow: Summary and Payment Page" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -135,7 +135,7 @@
         <mxCell id="BbD5o9TnXIsRnzcrsnNp-38" value="&lt;b&gt;MI-2801&lt;/b&gt;: Flow: Add Featured Accessories" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X1BD2XJLiUh06Z4Hev9j-1" value="&lt;b&gt;MI-3634&lt;/b&gt;: Flow: Implement Stripe Payments" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X1BD2XJLiUh06Z4Hev9j-1" value="&lt;b&gt;MI-3634&lt;/b&gt;: Flow: Implement Stripe Payments" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
